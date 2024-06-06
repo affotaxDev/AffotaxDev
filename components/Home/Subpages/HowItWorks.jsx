@@ -1,16 +1,21 @@
 import React from 'react'
+import { FcBullish } from "react-icons/fc";
+import { FcDataSheet } from "react-icons/fc";
+import { FcOk } from "react-icons/fc";
+import { FcCurrencyExchange } from "react-icons/fc";
+
 
 export default function HowItWorks() {
   return (
     
-    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24">
+    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 w-full drop-shadow-lg   ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-20">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
                     How It Works
                 </h1>
                 <div className="flex mt-6 justify-center">
-                    <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex" />
+                    <div className="w-16 h-1 rounded-full bg-primary inline-flex" />
                 </div>
             </div>
             <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
@@ -20,7 +25,7 @@ export default function HowItWorks() {
                 aria-hidden="true"
                 />
                 <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
-                <svg
+                {/* <svg
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -33,14 +38,15 @@ export default function HowItWorks() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     />
-                </svg>
+                </svg> */}
+                <FcDataSheet className='scale-150'/>
                 </div>
                 <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                    Add your databases
+                Your financial information sharing
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                    Use your own Notion databases or duplicate ours.
+                Your financial information is to be processed online in compliance with the GDPR/EU rules. You can email your bank statements to your accountant with ease: Live the future of secure online financial management.
                 </h4>
                 </div>
             </li>
@@ -50,7 +56,7 @@ export default function HowItWorks() {
                 aria-hidden="true"
                 />
                 <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
-                <svg
+                {/* <svg
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -63,14 +69,15 @@ export default function HowItWorks() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     />
-                </svg>
+                </svg> */}
+                <FcBullish className='scale-150'/>
                 </div>
                 <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                    Map your fields
+                Company accounts & tax return preparations
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                    Map your Notion fields with Feather fields.
+                With our innovative tools, experience financial reporting with unmatched precision. Our iXBRL accounts and tax filings are carefully produced by following Companies House and HMRC's rigorous guidelines.
                 </h4>
                 </div>
             </li>
@@ -80,7 +87,7 @@ export default function HowItWorks() {
                 aria-hidden="true"
                 />
                 <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
-                <svg
+                {/* <svg
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -93,20 +100,21 @@ export default function HowItWorks() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     />
-                </svg>
+                </svg> */}
+                <FcOk className='scale-150'/>
                 </div>
                 <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                    Choose your domain
+                Review & approval of drafts
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                    Choose a domain or a subdomain for your blog.
+                At Affotax, we believe in transparency and your complete satisfaction. At every step, you have the right to review and validate. We hold off on submitting your accounts until we have your explicit approval.
                 </h4>
                 </div>
             </li>
             <li className="flex-start group relative flex lg:flex-col">
                 <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
-                <svg
+                {/* <svg
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -119,14 +127,15 @@ export default function HowItWorks() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     />
-                </svg>
+                </svg> */}
+                <FcCurrencyExchange className='scale-150'/>
                 </div>
                 <div className="ml-6 lg:ml-0 lg:mt-10">
                 <h3 className="text-xl font-bold text-gray-900 before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
-                    Get your blog
+                Submission to HMRC & Companies Houses
                 </h3>
                 <h4 className="mt-2 text-base text-gray-700">
-                    That's it. You will get back a professional blog.
+                Rest assured that our expert team will handle the submission of your company accounts and tax filing digitally with utmost efficiency and accuracy. We'll share the proof of submission with you for your peace of mind.
                 </h4>
                 </div>
             </li>

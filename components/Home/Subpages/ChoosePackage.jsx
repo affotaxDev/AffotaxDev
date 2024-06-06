@@ -50,7 +50,7 @@ export default function ChoosePackage() {
                 </p> */}
                 </div>
             </div>
-            <div className="flex lg:w-3/4 w-full flex-wrap lg:border border-gray-300 rounded-lg">
+            <div className="flex lg:w-3/4 w-full flex-wrap lg:border border-gray-300 rounded-lg  ">
                 <div className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0 border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none">
                 <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                     <h3 className="tracking-widest">Basic</h3>
