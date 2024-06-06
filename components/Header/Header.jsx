@@ -144,7 +144,10 @@ export default function Header() {
 
 
 
-{isMobileNav && <Backdrop clickHandler={() => setIsMobileNav(false)} />}
+{isMobileNav && <Backdrop clickHandler={() => {
+    setIsMobileNav(false);
+    setShowSubMenu(false);
+}} />}
 <div className="container mx-auto flex-wrap items-center justify-between flex-col  p-4 hidden max-lg:flex ">
 
 <div className=" flex justify-between w-full p-5 z-50">
