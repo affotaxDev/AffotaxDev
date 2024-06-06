@@ -3,7 +3,7 @@ import React from 'react'
 export default function ServicesTo() {
     return (
 
-        <section className=" bg-gray-50 text-gray-600 body-font">
+        <section className=" bg-gray-50 text-gray-600 body-font w-full">
             <div className="container px-5 py-24 mx-auto">
 
                 <div className="text-center mb-20">
@@ -25,7 +25,7 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>
@@ -42,7 +42,7 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>
@@ -59,12 +59,12 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>
                             </svg>
-                            <span className="title-font font-medium">Contractor accountant</span>
+                            <span className="title-font font-medium">Contractor accountanta</span>
                         </div>
                     </li>
 
@@ -76,7 +76,7 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>
@@ -93,7 +93,7 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>
@@ -110,7 +110,7 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>
@@ -127,7 +127,7 @@ export default function ServicesTo() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="3"
-                                className="text-indigo-500 w-6 h-6 mr-4"
+                                className="text-primary w-6 h-6 mr-4"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M5 13l4 4L19 7"></path>

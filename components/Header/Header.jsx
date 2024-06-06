@@ -4,6 +4,7 @@ import { RxArrowDown, RxCross2, RxHamburgerMenu, RxThickArrowDown } from "react-
 import SubMenu from "./SubMenu";
 import Backdrop from "../Backdrop/Backdrop";
 import {IoIosArrowDown} from 'react-icons/io'
+import Link from "next/link";
 
 
 const subMenu = ['Annual Accounts', 'Corporation Tax', 'Self Assessment', 'Payroll', 'VAT', 'Company Secretarial', 'Bookkeeping', 'Company Formation']
@@ -59,7 +60,7 @@ export default function Header() {
 
 
           <div className=" flex justify-between max-md:w-full p-5 z-50">
-          <a href="https://affotax.com">
+          <Link href="https://affotax.com">
             <svg width="150" viewBox="0 0 280.00000000000006 72.06504786422265" className="css-1j8o68f">
             <defs id="SvgjsDefs1925"></defs>
             <g id="SvgjsG1926" featurekey="nameFeature-0" transform="matrix(1.6205390551742131,0,0,1.6205390551742131,-0.25928677428647584,-24.8266624671191)" fill="#ff7f45">
@@ -71,18 +72,18 @@ export default function Header() {
             </path>
             </g>
             </svg>
-            </a>
+            </Link>
 
 
           </div>
 
           <nav className={` z-50 flex flex-wrap items-center text-base  justify-center  max-lg:flex-col max-lg:gap-2 transition-all max-md:bg-black max-md:pt-5  max-md:w-full ${isMobileNav ? 'max-md:-translate-x-0' : 'max-md:-translate-x-[-1000px]'}`}>
-            <a className="mr-5 hover:text-primary hover:cursor-pointer">Home</a>
-            <a className="mr-5 hover:text-primary hover:cursor-pointer">Pricing</a>
+            <Link href={'/'} className="mr-5 hover:text-primary hover:cursor-pointer">Home</Link>
+            <Link  href={'/pricing'} className="mr-5 hover:text-primary hover:cursor-pointer">Pricing</Link>
             <div className="relative services " >
-            <a className="mr-5 hover:text-primary hover:cursor-pointer " >Services
+            <Link  href={'/services'} className="mr-5 hover:text-primary hover:cursor-pointer " >Services
                 
-            </a>
+            </Link>
             <ul className={`bg-secondary py-2 absolute hidden flex-col rounded-md z-20 `}> 
             {
                     subMenu.map((el, index) => {
@@ -92,9 +93,9 @@ export default function Header() {
                 </ul>
             </div>
             
-            <a className="mr-5 hover:text-primary hover:cursor-pointer">Blog</a>
-            <a className="mr-5 hover:text-primary hover:cursor-pointer">About Us</a>
-            <a className="mr-5 hover:text-primary hover:cursor-pointer">Contact Us</a>
+            <Link  href={'/blogs'} className="mr-5 hover:text-primary hover:cursor-pointer">Blogs</Link>
+            <Link  href={'/about-us'} className="mr-5 hover:text-primary hover:cursor-pointer">About Us</Link>
+            <Link  href={'/contact-us'} className="mr-5 hover:text-primary hover:cursor-pointer">Contact Us</Link>
           </nav>
 
 
@@ -178,24 +179,24 @@ export default function Header() {
 <div className={`z-50 absolute translate-y-16 flex-col gap-3 py-8 transition-all bg-tertiary w-full items-center justify-center ${isMobileNav ? 'flex' : 'hidden'}`}>
 
 <nav className={`flex items-center justify-center text-center text-base  flex-col gap-2 transition-all pt-5 }`}>
-  <a className=" hover:text-primary hover:cursor-pointer">Home</a>
-  <a className=" hover:text-primary ">Pricing</a>
+  <Link href={'/'} className=" hover:text-primary hover:cursor-pointer">Home</Link>
+  <Link href={'/pricing'} className=" hover:text-primary ">Pricing</Link>
   <div className=" relative hover:cursor-pointer" >
   <a className=" hover:text-primary text-secondary"  onClick={() => setShowSubMenu(prev => !prev)} >Services 
   <IoIosArrowDown  className={` inline-block ml-1 transition-all  ${!showSubMenu ? 'rotate-0' : 'rotate-180'}`}/>
   </a>
   {showSubMenu ? <ul className="py-2 bg-secondary absolute flex flex-col translate-y-2 rounded-lg "> 
   {
-          subMenu.map((el) => {
-              return <SubMenu name={el} key={el}/> 
+          subMenu.map((el, index) => {
+              return <SubMenu name={el} key={el} index={index} length={subMenu.length}/> 
           })
       }
       </ul> : null}
   </div>
   
-  <a className=" hover:text-primary hover:cursor-pointer">Blog</a>
-  <a className=" hover:text-primary hover:cursor-pointer">About Us</a>
-  <a className=" hover:text-primary hover:cursor-pointer">Contact Us</a>
+  <Link href={'/blogs'} className=" hover:text-primary hover:cursor-pointer">Blogs</Link>
+  <Link href={'/about-us'} className=" hover:text-primary hover:cursor-pointer">About Us</Link>
+  <Link href={'/contact-us'} className=" hover:text-primary hover:cursor-pointer">Contact Us</Link>
 </nav>
 
 

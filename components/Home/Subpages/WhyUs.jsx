@@ -29,12 +29,10 @@ export default function WhyUs() {
                     </div>
                     <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                        Shooting Stars
+                        Tax Saving
                     </h2>
                     <p className="leading-relaxed text-base">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                        taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-                        pug VHS try-hard.
+                    Our team of UK tax experts will collaborate with you to minimise your corporation and personal tax liability while adhering to the UK tax legislation. We will make sure to identify all allowances and expenses you're eligible for to reduce your tax burden.
                     </p>
                     
                     </div>
@@ -57,12 +55,10 @@ export default function WhyUs() {
                     </div>
                     <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                        The Catalyzer
+                        Award Winning
                     </h2>
                     <p className="leading-relaxed text-base">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                        taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-                        pug VHS try-hard.
+                    We're proud of being a leading UK accounting firm. Our various awards and top 100 accounting firm ranking are proof of our exceptional UK accounts and tax preparation services. We're committed to excellence and strive to maintain our reputation every day.
                     </p>
                     
                     </div>
@@ -84,12 +80,12 @@ export default function WhyUs() {
                     </div>
                     <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                        Neptune
+                    Deadline reminders
+
+
                     </h2>
                     <p className="leading-relaxed text-base">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                        taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-                        pug VHS try-hard.
+                    Our email reminders ensure you never miss a deadline for your limited company accounts and company tax returns to be submitted to HMRC and Companies House. Stay informed and avoid late filing penalties, while focusing on running your business.
                     </p>
                     
                     </div>
@@ -110,12 +106,10 @@ export default function WhyUs() {
                     </div>
                     <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                        Shooting Stars
+                    Experience
                     </h2>
                     <p className="leading-relaxed text-base">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                        taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-                        pug VHS try-hard.
+                    We're the UK's most reliable accountants with 10+ years of expertise in handling accounting and tax necessities. Our team consists of specialists certified in XERO and QBO, UK accounting and tax consultants in dealing with HMRC and Companies House.
                     </p>
                     
                     </div>
@@ -138,12 +132,12 @@ export default function WhyUs() {
                     </div>
                     <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                        The Catalyzer
+                    Fully accredited
+
+
                     </h2>
                     <p className="leading-relaxed text-base">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                        taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-                        pug VHS try-hard.
+                    As authorised accountants and registered agents with HMRC and Companies House, we offer reliable and customised accounting services. Our commitment to excellence remains steadfast, and we strive to deliver top-notch service and support to all our clients.
                     </p>
                     
                     </div>
@@ -165,12 +159,10 @@ export default function WhyUs() {
                     </div>
                     <div className="flex-grow">
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                        Neptune
+                    Support
                     </h2>
                     <p className="leading-relaxed text-base">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                        taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-                        pug VHS try-hard.
+                    Our expert accountants offer free live chat and email support to guide you every step of the way. Whether you're facing HMRC notices or need help with compliance, we'll take care of the declaration process for you in full compliance with UK regulations.
                     </p>
                     
                     </div>
