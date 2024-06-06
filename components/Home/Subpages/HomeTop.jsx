@@ -1,26 +1,28 @@
-import React from 'react'
+import React from 'react';
+import HeroImg from '@/public/hero.png'
+import HeroImg2 from '@/public/hero2.png'
 
 export default function HomeTop() {
-  return (
-    
-    <section className="bg-gray-50 text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-                <br className="hidden lg:inline-block" />
-                readymade gluten
-            </h1>
-            <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-            <div className="flex justify-center">
-                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+    return (
+        <section className='bg-gray-50 text-gray-600 w-full bgImage '>
+            <div className=' flex py-24 px-48 flex-row max-lg:flex-col max-lg:px-8 max-lg:py-8  items-center justify-around  w-full'>
+                <div className='items-start w-[50%] text-left pr-16 flex flex-col  mb-16 md:mb-0  max-lg:w-full max-lg:text-left max-lg:items-center max-lg:pr-0 '>
+                    <h1 className=' sm:text-4xl text-3xl mb-4 font-medium text-tertiary'> Online Accountant <br /> Services | UK's Affordable Accounting Firm </h1>
+                    <p className='mb-8 leading-relaxed font-semibold text-tertiary/[70] text-lg'> Welcome to the homepage of an affordable accounting firm in the UK made for small and micro-businesses. We are the esteemed ACCA-licensed, reliable accountants and HMRC-authorised agents dedicated to offering steadfast expertise. <br /> <br /> Find the comfort of having reliable accountants dedicated to your financial prosperity greetings from the UK for a new era of trustworthy and affordable accountancy services. </p>
+                    <div className='flex justify-center'>
+                        <button className='inline-flex text-secondary bg-primary border-0 py-2 px-6 hover:outline-primary outline-1 outline outline-transparent hover:bg-transparent hover:text-primary rounded-md text-lg font-semibold'> Services </button>
+                        <button className='ml-4 inline-flex text-primary bg-transparent border-0 py-2 px-6 outline-primary outline-1 outline hover:bg-primary hover:text-secondary rounded-md text-lg font-semibold'> Get a Quote </button>
+                    </div>
+                </div>
+
+                <div className='lg:max-w-2xl w-full   '>
+                    <img
+                        className='object-cover object-center rounded  drop-shadow-xl '
+                        alt='hero'
+                        src={HeroImg2.src}
+                    />
+                </div>
             </div>
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
-            </div>
-        </div>
-    </section>
-    
-  )
+        </section>
+    );
 }
