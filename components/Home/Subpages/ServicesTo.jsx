@@ -4,9 +4,9 @@ export default function ServicesTo() {
     return (
 
         <section className=" bg-slate-50 text-gray-600 body-font w-full">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 py-12 mx-auto">
 
-                <div className="text-center mb-20">
+                <div className="text-center mb-8">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
                         Our chartered accountants provide their services to:
                     </h1>

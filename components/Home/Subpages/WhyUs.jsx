@@ -10,8 +10,8 @@ import Image from 'next/image'
 export default function WhyUs() {
   return (
     <section className="text-gray-600 body-font px-60 max-2xl:px-40 max-xl:px-10  max-lg:px-8">
-        <div className="container px-5 py-24 mx-auto">
-            <div className="text-center mb-20">
+        <div className="container px-5 py-12 mx-auto">
+            <div className="text-center mb-16">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
                     Why Choose Us?
                 </h1>

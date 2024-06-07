@@ -5,7 +5,7 @@ export default function ChoosePackage() {
     
     <section className="text-gray-700 body-font overflow-hidden border-t border-b-2 b border-gray-200 px-60 max-2xl:px-40 max-xl:px-10">
          <div className="container  py-16 mx-auto">
-            <div className="text-center mb-16">
+            <div className="text-center mb-12">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900  mb-4">
                     Choose Your Package!
                 </h1>

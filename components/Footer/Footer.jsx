@@ -3,10 +3,10 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="text-gray-600 body-font w-full flex flex-col items-center px-60 max-2xl:px-40 max-xl:px-10">
-    <div className="container px-5 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-      <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-      <a href="https://affotax.com">
+    <footer className="text-gray-600 body-font w-full flex flex-col items-center px-60 max-2xl:px-40 max-xl:px-10 ">
+    <div className="container text-center px-5 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col justify-center items-center">
+      <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left items-center justify-center max-lg:flex max-lg:flex-col">
+      <Link href="/">
             <svg width="150" viewBox="0 0 280.00000000000006 72.06504786422265" className="css-1j8o68f">
             <defs id="SvgjsDefs1925"></defs>
             <g id="SvgjsG1926" featurekey="nameFeature-0" transform="matrix(1.6205390551742131,0,0,1.6205390551742131,-0.25928677428647584,-24.8266624671191)" fill="#ff7f45">
@@ -18,7 +18,7 @@ export default function Footer() {
             </path>
             </g>
             </svg>
-            </a>
+            </Link>
         <p className="mt-2 text-sm text-gray-500">Affotax Ltd is a reliable UK-based accountancy firm that specialises in providing affordable accounting and tax filing services for clients within the UK.</p>
       </div>
       <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
