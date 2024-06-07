@@ -3,9 +3,9 @@ import React from 'react'
 export default function ChoosePackage() {
   return (
     
-    <section className="text-gray-700 body-font overflow-hidden border-t border-gray-200">
-         <div className="container px-5 py-24 mx-auto">
-            <div className="text-center mb-20">
+    <section className="text-gray-700 body-font overflow-hidden border-t border-b-2 b border-gray-200 px-60 max-2xl:px-40 max-xl:px-10">
+         <div className="container  py-16 mx-auto">
+            <div className="text-center mb-16">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900  mb-4">
                     Choose Your Package!
                 </h1>
@@ -65,7 +65,7 @@ export default function ChoosePackage() {
                     Schlitz single-origin
                 </p> */}
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -80,7 +80,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -95,7 +95,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -113,7 +113,7 @@ export default function ChoosePackage() {
                     Feature
                 </p> */}
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -134,7 +134,7 @@ export default function ChoosePackage() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2.2"
-                    className="w-5 h-5 text-gray-500"
+                    className="w-5 h-5 text-red-500"
                     viewBox="0 0 24 24"
                     >
                     <path d="M18 6L6 18M6 6l12 12" />
@@ -147,7 +147,7 @@ export default function ChoosePackage() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2.2"
-                    className="w-5 h-5 text-gray-500"
+                    className="w-5 h-5 text-red-500"
                     viewBox="0 0 24 24"
                     >
                     <path d="M18 6L6 18M6 6l12 12" />
@@ -193,15 +193,15 @@ export default function ChoosePackage() {
                     </svg>
                 </p> */}
                 <div className="border-t border-gray-300 p-6 text-center rounded-bl-lg">
-                    <button className="flex items-center mt-auto text-secondary bg-primary/90 border-0 py-2 px-4 w-full focus:outline-none hover:bg-primary rounded">
-                    Button
+                    <button className="flex items-center justify-center text-secondary bg-primary/90 border-0 py-2 px-4 w-full focus:outline-none hover:bg-primary rounded">
+                    Buy Now
                     <svg
                         fill="none"
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        className="w-4 h-4 ml-auto"
+                        className="w-4 h-4 ml-1 mt-1"
                         viewBox="0 0 24 24"
                     >
                         <path d="M5 12h14M12 5l7 7-7 7" />
@@ -228,7 +228,7 @@ export default function ChoosePackage() {
                     Schlitz single-origin
                 </p> */}
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -243,7 +243,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -258,7 +258,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -273,7 +273,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -288,7 +288,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -303,14 +303,14 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 
-                <p className="text-gray-600 text-center h-12 flex items-center justify-center">
+                <p className="text-gray-600 text-center h-12 flex items-center  justify-center">
                     <svg
                     fill="none"
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2.2"
-                    className="w-5 h-5 text-gray-500"
+                    className="w-5 h-5 text-red-600 "
                     viewBox="0 0 24 24"
                     >
                     <path d="M18 6L6 18M6 6l12 12" />
@@ -318,15 +318,15 @@ export default function ChoosePackage() {
                 </p>
                 
                 <div className="p-6 text-center border-t border-gray-300">
-                    <button className="flex items-center mt-auto text-secondary bg-primary/90 border-0 py-2 px-4 w-full focus:outline-none hover:bg-primary rounded">
-                    Button
+                    <button className="flex items-center justify-center mt-auto text-secondary bg-primary/90 border-0 py-2 px-4 w-full focus:outline-none hover:bg-primary rounded">
+                    Buy Now
                     <svg
                         fill="none"
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        className="w-4 h-4 ml-auto"
+                        className="w-4 h-4 ml-1 mt-1"
                         viewBox="0 0 24 24"
                     >
                         <path d="M5 12h14M12 5l7 7-7 7" />
@@ -351,7 +351,7 @@ export default function ChoosePackage() {
                     Schlitz single-origin
                 </p> */}
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -366,7 +366,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -381,7 +381,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -399,7 +399,7 @@ export default function ChoosePackage() {
                     Feature
                 </p> */}
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -414,7 +414,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -429,7 +429,7 @@ export default function ChoosePackage() {
                     </span>
                 </p>
                 <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                    <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <span className="w-5 h-5 inline-flex items-center justify-center bg-green-500 text-white rounded-full flex-shrink-0">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -445,15 +445,15 @@ export default function ChoosePackage() {
                 </p>
                 
                 <div className="p-6 text-center border-t border-gray-300">
-                    <button className="flex items-center mt-auto text-secondary bg-primary/90 border-0 py-2 px-4 w-full focus:outline-none hover:bg-primary rounded">
-                    Button
+                    <button className="flex items-center justify-center text-secondary bg-primary/90 border-0 py-2 px-4 w-full focus:outline-none hover:bg-primary rounded">
+                    Buy Now
                     <svg
                         fill="none"
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        className="w-4 h-4 ml-auto"
+                        className="w-4 h-4 ml-1 mt-1"
                         viewBox="0 0 24 24"
                     >
                         <path d="M5 12h14M12 5l7 7-7 7" />

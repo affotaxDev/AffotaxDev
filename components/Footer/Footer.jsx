@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="text-gray-600 body-font w-full flex flex-col items-center ">
+    <footer className="text-gray-600 body-font w-full flex flex-col items-center px-60 max-2xl:px-40 max-xl:px-10">
     <div className="container px-5 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a href="https://affotax.com">
@@ -26,26 +26,26 @@ export default function Footer() {
           <h2 className="title-font font-medium text-primary tracking-widest text-sm mb-3">Who We Help</h2>
           <nav className="list-none mb-10">
             <li>
-              <Link href={'/sole-traders'} className="text-gray-600 hover:text-gray-800">Sole Traders</Link>
+              <Link href={'/sole-traders'} className="text-gray-600 hover:text-primary text-xs font-semibold">Sole Traders</Link>
             </li>
             <li>
-              <Link href={'/limited-companies'} className="text-gray-600 hover:text-gray-800">Limited Companies</Link>
+              <Link href={'/limited-companies'} className="text-gray-600 hover:text-primary text-xs font-semibold">Limited Companies</Link>
             </li>
             <li>
-              <Link href={'/partnerships'} className="text-gray-600 hover:text-gray-800">Partnerships</Link>
+              <Link href={'/partnerships'} className="text-gray-600 hover:text-primary text-xs font-semibold">Partnerships</Link>
             </li>
             <li>
-              <Link href={'/limited-liablity-partnership'} className="text-gray-600 hover:text-gray-800">Limited Liablity Partnership</Link>
+              <Link href={'/limited-liablity-partnership'} className="text-gray-600 hover:text-primary text-xs font-semibold">Limited Liablity Partnership</Link>
             </li>
             <li>
-              <Link href={'/contractor-accountants'} className="text-gray-600 hover:text-gray-800">Contractor Accountants</Link>
+              <Link href={'/contractor-accountants'} className="text-gray-600 hover:text-primary text-xs font-semibold">Contractor Accountants</Link>
             </li>
             <li>
-              <Link href={'/small-business-accountants'} className="text-gray-600 hover:text-gray-800">Small Business Accountants</Link>
+              <Link href={'/small-business-accountants'} className="text-gray-600 hover:text-primary text-xs font-semibold">Small Business Accountants</Link>
             </li>
 
             <li>
-              <Link href={'/xero-accountants'} className="text-gray-600 hover:text-gray-800">Xero Accountants</Link>
+              <Link href={'/xero-accountants'} className="text-gray-600 hover:text-primary text-xs font-semibold">Xero Accountants</Link>
             </li>
           </nav>
         </div>
@@ -53,16 +53,25 @@ export default function Footer() {
           <h2 className="title-font font-medium text-primary tracking-widest text-sm mb-3">Services</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">First Link</a>
+              <Link href={'/services/company-accounts'} className="text-gray-600 hover:text-primary text-xs font-semibold">Company Accounts</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+              <Link href={'/services/corporation-tax'} className="text-gray-600 hover:text-primary text-xs font-semibold">Corporation Tax</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+              <Link href={'/services/confirmation-statement'} className="text-gray-600 hover:text-primary text-xs font-semibold">Confirmation Statement</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <Link href={'/services/self-Assessment'} className="text-gray-600 hover:text-primary text-xs font-semibold">Self Assessment</Link>
+            </li>
+            <li>
+              <Link href={'/services/vat-return'} className="text-gray-600 hover:text-primary text-xs font-semibold">VAT Return</Link>
+            </li>
+            <li>
+              <Link href={'/services/payroll-services'} className="text-gray-600 hover:text-primary text-xs font-semibold">Payroll Services</Link>
+            </li>
+            <li>
+              <Link href={'/services/bookkeeping'} className="text-gray-600 hover:text-primary text-xs font-semibold">Bookkeeping</Link>
             </li>
           </nav>
         </div>
@@ -70,34 +79,61 @@ export default function Footer() {
           <h2 className="title-font font-medium text-primary tracking-widest text-sm mb-3">About</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">First Link</a>
+              <Link href={'/about/about-us'} className="text-gray-600 hover:text-primary text-xs font-semibold">About Us</Link>
             </li>
+
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+              <Link href={'/about/our-pricing'} className="text-gray-600 hover:text-primary text-xs font-semibold">Our Pricing</Link>
             </li>
+
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+              <Link href={'/about/refer-a-friend'} className="text-gray-600 hover:text-primary text-xs font-semibold">Refer a Friend</Link>
             </li>
+
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <Link href={'/about/filing-deadlines'} className="text-gray-600 hover:text-primary text-xs font-semibold">Filing Deadlines</Link>
             </li>
+
+            <li>
+              <Link href={'/about/news-and-articles'} className="text-gray-600 hover:text-primary text-xs font-semibold">News & Articles</Link>
+            </li>
+
+            <li>
+              <Link href={'/about/contact-us'} className="text-gray-600 hover:text-primary text-xs font-semibold">Contact Us</Link>
+            </li>
+
+            <li>
+              <Link href={'/about/privacy-policy'} className="text-gray-600 hover:text-primary text-xs font-semibold">Privacy Policy</Link>
+            </li>
+           
+           
           </nav>
         </div>
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-medium text-primary tracking-widest text-sm mb-3">Locations</h2>
           <nav className="list-none mb-10">
             <li>
-              <a className="text-gray-600 hover:text-gray-800">First Link</a>
+              <Link href={'/locations/wales'} className="text-gray-600 hover:text-primary text-xs font-semibold">Wales</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+              <Link href={'/locations/london'} className="text-gray-600 hover:text-primary text-xs font-semibold">London</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+              <Link href={'/locations/england'} className="text-gray-600 hover:text-primary text-xs font-semibold">England</Link>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+              <Link href={'/locations/scotland'} className="text-gray-600 hover:text-primary text-xs font-semibold">Scotland</Link>
             </li>
+            <li>
+              <Link href={'/locations/birmingham'} className="text-gray-600 hover:text-primary text-xs font-semibold">Birmingham</Link>
+            </li>
+            <li>
+              <Link href={'/locations/manchester'} className="text-gray-600 hover:text-primary text-xs font-semibold">Manchester</Link>
+            </li>
+            <li>
+              <Link href={'/locations/northern-ireland'} className="text-gray-600 hover:text-primary text-xs font-semibold">Northern Ireland</Link>
+            </li>
+            
           </nav>
         </div>
         

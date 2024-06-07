@@ -56,11 +56,11 @@ export default function Header() {
     <>
     <header className=" body-font w-full bg-tertiary font-semibold text-secondary h-auto   ">
         {/* {showSubMenu && <Backdrop clickHandler={() => setShowSubMenu(false)} />} */}
-        <div className=" container mx-auto flex flex-wrap flex-row items-center justify-between max-lg:hidden">
+        <div className=" px-60 max-2xl:px-40 max-xl:px-10   mx-auto flex flex-wrap flex-row items-center justify-between  max-lg:hidden">
 
 
-          <div className=" flex justify-between max-md:w-full p-5 z-50">
-          <Link href="https://affotax.com">
+          <div className=" flex justify-between max-md:w-full py-5 z-50">
+          <Link href="/">
             <svg width="150" viewBox="0 0 280.00000000000006 72.06504786422265" className="css-1j8o68f">
             <defs id="SvgjsDefs1925"></defs>
             <g id="SvgjsG1926" featurekey="nameFeature-0" transform="matrix(1.6205390551742131,0,0,1.6205390551742131,-0.25928677428647584,-24.8266624671191)" fill="#ff7f45">
@@ -149,10 +149,10 @@ export default function Header() {
     setIsMobileNav(false);
     setShowSubMenu(false);
 }} />}
-<div className="container mx-auto flex-wrap items-center justify-between flex-col  p-4 hidden max-lg:flex ">
+<div className=" items-center justify-between flex-col  py-4 px-8 hidden max-lg:flex ">
 
 <div className=" flex justify-between w-full p-5 z-50">
-<a href="https://affotax.com">
+<Link href="/">
   <svg width="150" viewBox="0 0 280.00000000000006 72.06504786422265" className="css-1j8o68f">
   <defs id="SvgjsDefs1925"></defs>
   <g id="SvgjsG1926" featurekey="nameFeature-0" transform="matrix(1.6205390551742131,0,0,1.6205390551742131,-0.25928677428647584,-24.8266624671191)" fill="#ff7f45">
@@ -164,7 +164,7 @@ export default function Header() {
   </path>
   </g>
   </svg>
-  </a>
+  </Link>
 
   <button className="bg-primary  rounded-md active:scale-90 w-[12%] flex justify-center items-center" onClick={handleNav}>
   {isMobileNav ? <RxCross2 /> : <RxHamburgerMenu />}

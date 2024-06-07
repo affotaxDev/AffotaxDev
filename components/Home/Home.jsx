@@ -7,7 +7,7 @@ import WhyUs from "./Subpages/WhyUs";
 
 export default function Home() {
   return (
-    <main className="w-full  flex min-h-screen flex-col items-center justify-between  max-md:p-0">
+    <main className="w-full  flex flex-col items-center justify-between   max-lg:p-0">
         <HomeTop />
         <ChoosePackage />
         <HowItWorks />

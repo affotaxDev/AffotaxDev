@@ -8,8 +8,8 @@ import { FcCurrencyExchange } from "react-icons/fc";
 export default function HowItWorks() {
   return (
     
-    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 w-full drop-shadow-lg   ">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20 xl:py-24 w-full drop-shadow-lg px-60 max-2xl:px-40 max-xl:px-20  max-lg:px-8  ">
+        <div className="mx-auto max-w-7xl px-4  max-lg:px-4">
             <div className="text-center mb-20">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
                     How It Works
@@ -18,7 +18,7 @@ export default function HowItWorks() {
                     <div className="w-16 h-1 rounded-full bg-primary inline-flex" />
                 </div>
             </div>
-            <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+            <ul className="mx-auto mt-12 grid grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:grid-cols-4">
             <li className="flex-start group relative flex lg:flex-col">
                 <span
                 className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:right-0 lg:left-auto lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
