@@ -54,12 +54,16 @@ export default function Header() {
 
   return (
     <>
-    <header className=" body-font w-full bg-tertiary font-semibold text-secondary h-auto   ">
+    <header className=" body-font w-full bg-tertiary font-semibold text-secondary h-auto  px-60 max-2xl:px-40 max-xl:px-10 ">
         {/* {showSubMenu && <Backdrop clickHandler={() => setShowSubMenu(false)} />} */}
-        <div className=" px-60 max-2xl:px-40 max-xl:px-10   mx-auto flex flex-wrap flex-row items-center justify-between  max-lg:hidden">
+        <div className="    mx-auto container  max-lg:hidden">
 
 
-          <div className=" flex justify-between max-md:w-full py-5 z-50">
+          <div className="flex flex-row items-center justify-between ">
+
+
+
+          <div className="  py-5 z-50">
           <Link href="/">
             <svg width="150" viewBox="0 0 280.00000000000006 72.06504786422265" className="css-1j8o68f">
             <defs id="SvgjsDefs1925"></defs>
@@ -76,6 +80,12 @@ export default function Header() {
 
 
           </div>
+
+
+
+
+
+
 
           <nav className={` z-50 flex flex-wrap items-center text-base  justify-center  max-lg:flex-col max-lg:gap-2 transition-all max-md:bg-black max-md:pt-5  max-md:w-full ${isMobileNav ? 'max-md:-translate-x-0' : 'max-md:-translate-x-[-1000px]'}`}>
             <Link href={'/'} className="mr-5 hover:text-primary hover:cursor-pointer">Home</Link>
@@ -98,6 +108,13 @@ export default function Header() {
             <Link  href={'/contact-us'} className="mr-5 hover:text-primary hover:cursor-pointer">Contact Us</Link>
           </nav>
 
+
+
+
+
+
+
+        
 
           <div className={`flex gap-6  transition-all ${isMobileNav ? 'max-md:-translate-x-0' : 'max-md:-translate-x-[-1000px]'}`}>
 
@@ -129,6 +146,12 @@ export default function Header() {
             </div>
             
             </div>
+
+
+
+
+
+          </div>
 
 
           </div>
