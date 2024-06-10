@@ -4,7 +4,7 @@ import HeroImg2 from '@/public/hero2.png'
 
 export default function HomeTop() {
     return (
-        <section className=' text-gray-600 w-full bg-slate-100 pt-8 px-60 max-2xl:px-40 max-xl:px-10  max-lg:px-8 bgImage'>
+        <section className=' text-gray-600 w-full bg-slate-50 pt-8 px-60 max-2xl:px-40 max-xl:px-10  max-lg:px-8 bgImage'>
             <div className='container mx-auto '>
             <div className=' flex py-24  flex-row max-lg:flex-col  max-lg:px-8 max-lg:py-8  items-start  justify-between gap-10 '>
                 <div className='items-start pt-10 w-[50%] max-w-2xl text-left  flex flex-col  mb-16 md:mb-0  max-lg:w-full max-lg:text-left max-lg:items-center max-lg:pr-0 '>

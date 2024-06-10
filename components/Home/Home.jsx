@@ -14,7 +14,7 @@ export default function Home() {
         <HowItWorks />
         <WhyUs />
         <ServicesTo />
-        {/* <EmailPhone /> */}
+        <EmailPhone />
     </main>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function ServicesTo() {
     return (
 
-        <section className=" bg-slate-50 text-gray-600 body-font w-full">
+        <section className=" bg-slate-50 text-gray-600 body-font w-full drop-shadow-md  py-8 ">
             <div className="container px-5 py-12 mx-auto">
 
                 <div className="text-center mb-8">

@@ -183,7 +183,7 @@ export default function WhyUs() {
                 </div>
             </div>
 
-        <div className=' mt-20  text-center items-center bg-slate-100 w-full rounded-xl p-12 max-lg:p-6 drop-shadow-md '>
+        <div className=' mt-20  text-center items-center bg-slate-50 w-full rounded-xl p-12 max-lg:p-6 drop-shadow-md '>
             <h1 className=' title-font text-3xl font-semibold '>
                 Ready to chat with the UK's top chartered accountants?
             </h1>
