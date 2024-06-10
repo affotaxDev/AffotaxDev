@@ -177,7 +177,7 @@ const Menu = () => {
                     {
                         menu.map((el, index) => {
                             return (
-                                <li className={` py-2 max-lg:border-b-[1px]  ${index === (menu.length - 1) ? 'border-none' : 'border-black/20'}`}>
+                                <li key={el.name} className={` py-2 max-lg:border-b-[1px]  ${index === (menu.length - 1) ? 'border-none' : 'border-black/20'}`}>
                                     <h3 className={`max-xl:text-sm   text-lg rounded-lg  text-nowrap py-2 px-4 font-semibold  hover:cursor-pointer  ${active === el.name ? 'text-secondary  bg-primary' : 'text-tertiary hover:text-primary'}`} onClick={() => setActive(el.name)}>{el.name}</h3>
                                 </li>
                             )
@@ -190,9 +190,9 @@ const Menu = () => {
                         menu.map((el) => {
                             return (
                                 el.name === active ? 
-                                <li className='flex flex-col flex-wrap max-lg:flex-nowrap max-h-48 max-lg:max-h-fit px-4 py-2 gap-2 '>
+                                <li key={el.name} className='flex flex-col flex-wrap max-lg:flex-nowrap max-h-48 max-lg:max-h-fit px-4 py-2 gap-2 '>
                                    {el.submenu.map((sub) => {
-                                    return <h3 className='text-md font-semibold max-lg:text-xs max-lg:font-semibold flex items-center py-2 hover:cursor-pointer hover:text-primary  '><FaAngleDoubleRight className='text-primary mr-2 text-center'/><Link href={sub.link}>{sub.name}</Link></h3>
+                                    return <h3 key={sub.name} className='text-md font-semibold max-lg:text-xs max-lg:font-semibold flex items-center py-2 hover:cursor-pointer hover:text-primary  '><FaAngleDoubleRight className='text-primary mr-2 text-center'/><Link href={sub.link}>{sub.name}</Link></h3>
                                    })}
                                 </li> : null
                             )
