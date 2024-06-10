@@ -12,10 +12,10 @@ const contactArr = [{name: 'Phone', icon: <LuPhoneCall className='scale-125 mr-3
 
 const EmailPhone = () => {
     return (
-        <section className=' w-full bg-white '>
+        <section className=' w-full bg-white px-60 max-2xl:px-40 max-xl:px-10'>
             <div className=' w-full '>
             <div className='flex flex-col justify-center items-center   '>
-            <div className=' container mx-auto flex justify-around items-center py-6 w-full border-b-2     max-lg:flex-col max-lg:gap-2  bg '>
+            <div className=' container mx-auto  flex justify-around items-center py-10 w-full border-b-2     max-lg:flex-col max-lg:gap-2  bg '>
                 <div className='flex items-center justify-center relative '>
                     <h3 className='text-3xl text-tertiary font-semibold z-20'>
                         Speak to one of our expert team members
@@ -31,7 +31,7 @@ const EmailPhone = () => {
                 </div>
             </div>
 
-            <div className=' container mx-auto w-full py-8 '>
+            <div className=' container mx-auto w-full py-12 '>
                 <ul className='flex justify-around  items-center w-full max-lg:flex-col max-lg:gap-8'>
                     {
                         contactArr.map((el) => {

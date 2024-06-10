@@ -2,7 +2,7 @@ import React from 'react'
 import ChoosePackage from '@/components/Home/Subpages/ChoosePackage'
 import EmailPhone from '@/components/Home/Subpages/EmailPhone'
 
-const Pricing = () => {
+const PricingPage = () => {
   return (
     <>
         <ChoosePackage />
@@ -11,4 +11,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default PricingPage
