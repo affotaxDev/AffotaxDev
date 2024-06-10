@@ -54,7 +54,7 @@ export default function Header() {
 
   return (
     <>
-    <header className=" body-font w-full bg-tertiary font-semibold text-secondary h-auto  px-60 max-2xl:px-40 max-xl:px-10 ">
+    <header className=" body-font w-full bg-tertiary font-semibold text-secondary h-auto  px-60 max-2xl:px-40 max-xl:px-10 max-lg:p-0 ">
         {/* {showSubMenu && <Backdrop clickHandler={() => setShowSubMenu(false)} />} */}
         <div className="    mx-auto container  max-lg:hidden">
 

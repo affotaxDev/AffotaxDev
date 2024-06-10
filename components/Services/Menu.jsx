@@ -172,27 +172,27 @@ const Menu = () => {
 
     return (                                                                                                    
         <section className='w-full my-6 px-60 max-2xl:px-40 max-xl:px-10  '>
-            <div className='container mx-auto flex flex-col justify-center items-center rounded-xl drop-shadow-md   bg-slate-50'>
-                <ul className='flex flex-row py-2 border-b-2 px-2'>
+            <div className='container mx-auto flex flex-col max-lg:flex-row justify-center max-lg:items-start max-lg:justify-start max-lg:h-[500px] items-center rounded-xl drop-shadow-md   bg-slate-50'>
+                <ul className='flex flex-row py-2 border-b-2 max-lg:border-none px-4 max-lg:flex-col max-lg:bg-slate-100 rounded-lg h-full '>
                     {
-                        menu.map((el) => {
+                        menu.map((el, index) => {
                             return (
-                                <li className={` py-2 `}>
-                                    <h3 className={`max-xl:text-sm  text-lg rounded-lg  text-nowrap py-2 px-4 font-semibold  hover:cursor-pointer  ${active === el.name ? 'text-secondary  bg-primary' : 'text-tertiary hover:text-primary'}`} onClick={() => setActive(el.name)}>{el.name}</h3>
+                                <li className={` py-2 max-lg:border-b-[1px]  ${index === (menu.length - 1) ? 'border-none' : 'border-black/20'}`}>
+                                    <h3 className={`max-xl:text-sm   text-lg rounded-lg  text-nowrap py-2 px-4 font-semibold  hover:cursor-pointer  ${active === el.name ? 'text-secondary  bg-primary' : 'text-tertiary hover:text-primary'}`} onClick={() => setActive(el.name)}>{el.name}</h3>
                                 </li>
                             )
                         })
                     }
                 </ul>
 
-                <ul className='flex flex-col justify-center items-center my-6 '>
+                <ul className='flex flex-col items-start   my-6 max-lg:my-0   '>
                     {
                         menu.map((el) => {
                             return (
                                 el.name === active ? 
-                                <li className=''>
+                                <li className='flex flex-col flex-wrap max-lg:flex-nowrap max-h-48 max-lg:max-h-fit px-4 py-2 gap-2 '>
                                    {el.submenu.map((sub) => {
-                                    return <h3 className='text-md font-semibold  flex items-center py-2 hover:cursor-pointer hover:text-primary  '><FaAngleDoubleRight className='text-primary mr-2 text-center'/><Link href={sub.link}>{sub.name}</Link></h3>
+                                    return <h3 className='text-md font-semibold max-lg:text-xs max-lg:font-semibold flex items-center py-2 hover:cursor-pointer hover:text-primary  '><FaAngleDoubleRight className='text-primary mr-2 text-center'/><Link href={sub.link}>{sub.name}</Link></h3>
                                    })}
                                 </li> : null
                             )
