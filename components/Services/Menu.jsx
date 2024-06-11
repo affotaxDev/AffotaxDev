@@ -161,7 +161,7 @@ const Menu = () => {
 
 
 
-    const [active, setActive] = useState('Bookkeeping')
+    const [active, setActive] = useState('Accounts');
 
 
 

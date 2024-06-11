@@ -1,6 +1,7 @@
 'use server';
 
 import { getFormData } from "@/lib/getFormData";
+import sendMail from "@/lib/sendMail";
 
 
 
@@ -16,7 +17,11 @@ import { getFormData } from "@/lib/getFormData";
 export async function sendMessage(formData) {
         
 
-        const {name, email, service, message} = getFormData(formData, 'name', 'email', 'service', 'message');
+        //const {name, email, service, message} = getFormData(formData, 'name', 'email', 'service', 'message');
 
-        console.log(email, name)
+        //console.log(email, name)
+
+        const res = await sendMail();
+
+        console.log(res)
 }
