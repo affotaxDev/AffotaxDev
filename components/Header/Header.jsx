@@ -7,7 +7,11 @@ import {IoIosArrowDown} from 'react-icons/io'
 import Link from "next/link";
 
 
-const subMenu = ['Annual Accounts', 'Corporation Tax', 'Self Assessment', 'Payroll', 'VAT', 'Company Secretarial', 'Bookkeeping', 'Company Formation']
+
+
+const subMenu = [ { name: 'Annual Accounts', link: '/annual-accounts' }, { name: 'Corporation Tax', link: '/corporation-tax-ct600' }, { name: 'Self Assessment', link: '/self-assessment-tax-return-sa100' }, { name: 'Payroll', link: '/register-for-paye' }, { name: 'VAT', link: '/vat-registration' }, { name: 'Company Secretarial', link: '/annual-confirmation-statement' }, { name: 'Bookkeeping', link: '/bookkeeping-for-12-month' }, { name: 'Company Formation', link: '/uk-company-registration-uk-resident' } ]
+
+
 
 
 export default function Header() {
@@ -97,7 +101,7 @@ export default function Header() {
             <ul className={`bg-secondary py-2 absolute hidden flex-col rounded-md z-20 `}> 
             {
                     subMenu.map((el, index) => {
-                        return <SubMenu name={el} key={el} index={index} length={subMenu.length} /> 
+                        return <SubMenu name={el.name} link={el.link} key={el} index={index} length={subMenu.length} /> 
                     })
                 }
                 </ul>
