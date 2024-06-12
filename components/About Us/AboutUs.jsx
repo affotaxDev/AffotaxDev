@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import AboutUsImage from '@/public/About.png'
+import AboutUsImage from '@/public/about.png'
 
 const AboutUs = () => {
   return (
@@ -21,7 +21,7 @@ With over ten years of expertise in managing accounting and tax requirements, we
             </div>
 
             <div className='w-[60%] max-lg:w-full rounded-2xl overflow-hidden mt-2'>
-                <Image src={AboutUsImage}/>
+                <Image src={AboutUsImage} />
             </div>
         </div>
 
